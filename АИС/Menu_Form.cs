@@ -17,5 +17,19 @@ namespace АИС
             InitializeComponent();
 
         }
+
+        private void InfoCompony_button_Click(object sender, EventArgs e)
+        {
+            Company_Form frm = new Company_Form();
+            frm.Show();
+            this.Close();
+        }
+
+        private void InfoShop_button_Click(object sender, EventArgs e)
+        {
+            CompanyBranch_Form frm = new CompanyBranch_Form();
+            frm.Show();
+            this.Close();
+        }
     }
 }

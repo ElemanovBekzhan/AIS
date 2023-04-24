@@ -11,3 +11,4 @@ C:\Users\qwerty\Desktop\AIS_PO\АИС\obj\Debug\АИС.csproj.GenerateResource.c
 C:\Users\qwerty\Desktop\AIS_PO\АИС\obj\Debug\АИС.csproj.CoreCompileInputs.cache
 C:\Users\qwerty\Desktop\AIS_PO\АИС\obj\Debug\АИС.exe
 C:\Users\qwerty\Desktop\AIS_PO\АИС\obj\Debug\АИС.pdb
+C:\Users\qwerty\Desktop\AIS_PO\АИС\obj\Debug\АИС.CompanyBranch_Form.resources
