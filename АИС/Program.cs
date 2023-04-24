@@ -16,7 +16,7 @@ namespace АИС
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu());
+            Application.Run(new Authorization_Form());
         }
     }
 }

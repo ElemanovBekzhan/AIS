@@ -16,5 +16,11 @@ namespace АИС
         {
             InitializeComponent();
         }
+
+        private void Authoriz_button_Click(object sender, EventArgs e)
+        {
+            Menu frm = new Menu();
+            frm.Show();
+        }
     }
 }
