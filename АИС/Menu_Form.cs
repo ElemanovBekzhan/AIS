@@ -31,5 +31,17 @@ namespace АИС
             frm.Show();
             this.Close();
         }
+
+        private void Exit_button_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            
+        }
+
+        private void button_Click(object sender, EventArgs e)
+        {
+            Bookkeeping_Form frm = new Bookkeeping_Form();
+            frm.Show();
+        }
     }
 }
