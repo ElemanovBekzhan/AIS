@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace АИС
 {
-    public partial class Menu : Form
+    public partial class Menu_Form : Form
     {
-        public Menu()
+        public Menu_Form()
         {
             InitializeComponent();
 
@@ -34,6 +34,8 @@ namespace АИС
 
         private void Exit_button_Click(object sender, EventArgs e)
         {
+            Authorization_Form frm = new Authorization_Form();  
+            frm.Show();
             this.Close();
             
         }

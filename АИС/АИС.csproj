@@ -87,6 +87,9 @@
     <EmbeddedResource Include="CompanyBranch_Form.resx">
       <DependentUpon>CompanyBranch_Form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Company_Form.resx">
+      <DependentUpon>Company_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu_Form.resx">
       <DependentUpon>Menu_Form.cs</DependentUpon>
     </EmbeddedResource>

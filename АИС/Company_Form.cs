@@ -16,5 +16,12 @@ namespace АИС
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Menu_Form frm = new Menu_Form();
+            frm.Show();
+            this.Close();
+        }
     }
 }

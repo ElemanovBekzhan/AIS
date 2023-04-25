@@ -19,8 +19,9 @@ namespace АИС
 
         private void Authoriz_button_Click(object sender, EventArgs e)
         {
-            Menu frm = new Menu();
+            Menu_Form frm = new Menu_Form();
             frm.Show();
+            this.Hide();
             
         }
 

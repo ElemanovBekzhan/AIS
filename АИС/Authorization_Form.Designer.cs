@@ -54,6 +54,7 @@
             // 
             this.Author_label.AutoSize = true;
             this.Author_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Author_label.ForeColor = System.Drawing.Color.Cornsilk;
             this.Author_label.Location = new System.Drawing.Point(93, 121);
             this.Author_label.Name = "Author_label";
             this.Author_label.Size = new System.Drawing.Size(152, 25);
@@ -64,6 +65,7 @@
             // 
             this.Login_label.AutoSize = true;
             this.Login_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Login_label.ForeColor = System.Drawing.Color.FloralWhite;
             this.Login_label.Location = new System.Drawing.Point(37, 160);
             this.Login_label.Name = "Login_label";
             this.Login_label.Size = new System.Drawing.Size(55, 20);
@@ -74,6 +76,7 @@
             // 
             this.Password_label.AutoSize = true;
             this.Password_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Password_label.ForeColor = System.Drawing.Color.FloralWhite;
             this.Password_label.Location = new System.Drawing.Point(25, 197);
             this.Password_label.Name = "Password_label";
             this.Password_label.Size = new System.Drawing.Size(67, 20);
@@ -109,6 +112,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlText;
             this.ClientSize = new System.Drawing.Size(322, 316);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox2);

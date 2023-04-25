@@ -1,6 +1,6 @@
 ﻿namespace АИС
 {
-    partial class Menu
+    partial class Menu_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu_Form));
             this.InfoCompony_button = new System.Windows.Forms.Button();
             this.InfoShop_button = new System.Windows.Forms.Button();
             this.Exit_button = new System.Windows.Forms.Button();
@@ -182,7 +182,7 @@
             this.выходToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.выходToolStripMenuItem.Text = "Выход";
             // 
-            // Menu
+            // Menu_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -195,7 +195,7 @@
             this.Controls.Add(this.InfoShop_button);
             this.Controls.Add(this.InfoCompony_button);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Menu";
+            this.Name = "Menu_Form";
             this.Text = "Menu";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
