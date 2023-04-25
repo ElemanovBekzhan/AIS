@@ -40,7 +40,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.оКомпанииToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.производствоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.социальнаяОтветственностьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.УчётToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.справочникToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.контактыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оРазработчикеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -128,7 +128,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.оКомпанииToolStripMenuItem,
             this.производствоToolStripMenuItem,
-            this.социальнаяОтветственностьToolStripMenuItem,
+            this.УчётToolStripMenuItem,
             this.справочникToolStripMenuItem,
             this.выходToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -149,11 +149,11 @@
             this.производствоToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.производствоToolStripMenuItem.Text = "Филиалы";
             // 
-            // социальнаяОтветственностьToolStripMenuItem
+            // УчётToolStripMenuItem
             // 
-            this.социальнаяОтветственностьToolStripMenuItem.Name = "социальнаяОтветственностьToolStripMenuItem";
-            this.социальнаяОтветственностьToolStripMenuItem.Size = new System.Drawing.Size(96, 20);
-            this.социальнаяОтветственностьToolStripMenuItem.Text = "Цены и сроки";
+            this.УчётToolStripMenuItem.Name = "УчётToolStripMenuItem";
+            this.УчётToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.УчётToolStripMenuItem.Text = "Учёт";
             // 
             // справочникToolStripMenuItem
             // 
@@ -167,13 +167,13 @@
             // контактыToolStripMenuItem
             // 
             this.контактыToolStripMenuItem.Name = "контактыToolStripMenuItem";
-            this.контактыToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.контактыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.контактыToolStripMenuItem.Text = "Контакты";
             // 
             // оРазработчикеToolStripMenuItem
             // 
             this.оРазработчикеToolStripMenuItem.Name = "оРазработчикеToolStripMenuItem";
-            this.оРазработчикеToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.оРазработчикеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.оРазработчикеToolStripMenuItem.Text = "О разработчике";
             // 
             // выходToolStripMenuItem
@@ -217,7 +217,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem оКомпанииToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem производствоToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem социальнаяОтветственностьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem УчётToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem справочникToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem контактыToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem оРазработчикеToolStripMenuItem;

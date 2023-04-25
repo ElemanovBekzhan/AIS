@@ -70,6 +70,7 @@
     <Compile Include="Company_Form.Designer.cs">
       <DependentUpon>Company_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataBase.cs" />
     <Compile Include="Menu_Form.cs">
       <SubType>Form</SubType>
     </Compile>

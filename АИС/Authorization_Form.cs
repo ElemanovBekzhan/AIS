@@ -21,7 +21,6 @@ namespace АИС
         {
             Menu_Form frm = new Menu_Form();
             frm.Show();
-            this.Hide();
             
         }
 

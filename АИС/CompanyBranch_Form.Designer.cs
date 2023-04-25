@@ -63,7 +63,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(510, 175);
+            this.pictureBox1.Location = new System.Drawing.Point(481, 128);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(196, 137);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -73,7 +73,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(12, 97);
+            this.pictureBox2.Location = new System.Drawing.Point(12, 77);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(196, 137);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -83,7 +83,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(510, 340);
+            this.pictureBox3.Location = new System.Drawing.Point(481, 293);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(196, 137);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -93,7 +93,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(12, 459);
+            this.pictureBox4.Location = new System.Drawing.Point(12, 411);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(196, 137);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -103,7 +103,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(12, 278);
+            this.pictureBox5.Location = new System.Drawing.Point(12, 244);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(196, 137);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -113,7 +113,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(214, 106);
+            this.label1.Location = new System.Drawing.Point(214, 93);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 6;
@@ -122,7 +122,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(214, 299);
+            this.label2.Location = new System.Drawing.Point(214, 252);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 7;
@@ -131,7 +131,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(214, 464);
+            this.label3.Location = new System.Drawing.Point(214, 417);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 8;
@@ -140,7 +140,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(712, 186);
+            this.label4.Location = new System.Drawing.Point(683, 167);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 9;
@@ -149,7 +149,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(712, 351);
+            this.label5.Location = new System.Drawing.Point(683, 332);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(35, 13);
             this.label5.TabIndex = 10;
@@ -158,7 +158,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(712, 221);
+            this.linkLabel1.Location = new System.Drawing.Point(683, 202);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(55, 13);
             this.linkLabel1.TabIndex = 11;
@@ -210,13 +210,13 @@
             // контактыToolStripMenuItem
             // 
             this.контактыToolStripMenuItem.Name = "контактыToolStripMenuItem";
-            this.контактыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.контактыToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.контактыToolStripMenuItem.Text = "Контакты";
             // 
             // оРазработчикеToolStripMenuItem
             // 
             this.оРазработчикеToolStripMenuItem.Name = "оРазработчикеToolStripMenuItem";
-            this.оРазработчикеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.оРазработчикеToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.оРазработчикеToolStripMenuItem.Text = "О разработчике";
             // 
             // выходToolStripMenuItem
@@ -228,7 +228,7 @@
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(214, 207);
+            this.linkLabel2.Location = new System.Drawing.Point(214, 160);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(55, 13);
             this.linkLabel2.TabIndex = 13;
@@ -238,7 +238,7 @@
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(214, 389);
+            this.linkLabel3.Location = new System.Drawing.Point(214, 342);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(55, 13);
             this.linkLabel3.TabIndex = 14;
@@ -248,7 +248,7 @@
             // linkLabel4
             // 
             this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Location = new System.Drawing.Point(214, 561);
+            this.linkLabel4.Location = new System.Drawing.Point(214, 536);
             this.linkLabel4.Name = "linkLabel4";
             this.linkLabel4.Size = new System.Drawing.Size(55, 13);
             this.linkLabel4.TabIndex = 15;
@@ -258,7 +258,7 @@
             // linkLabel5
             // 
             this.linkLabel5.AutoSize = true;
-            this.linkLabel5.Location = new System.Drawing.Point(712, 402);
+            this.linkLabel5.Location = new System.Drawing.Point(683, 383);
             this.linkLabel5.Name = "linkLabel5";
             this.linkLabel5.Size = new System.Drawing.Size(55, 13);
             this.linkLabel5.TabIndex = 16;
