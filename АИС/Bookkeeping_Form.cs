@@ -30,5 +30,10 @@ namespace АИС
             // Установить свойство Region pictureBox1 с использованием графического пути
             pictureBox1.Region = new Region(gp);
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Menu_Form frm = new Menu_Form();
+        }
     }
 }
