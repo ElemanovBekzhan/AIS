@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -35,10 +36,29 @@ namespace АИС
             pictureBox1.Region = new Region(gp);
         }
 
+        private void Search_button_Click(object sender, EventArgs e)
+        {
+            SqlParameter sqlParameter = new SqlParameter("@NBook", textBox1.Text);
+            string _query = "Search_SP";
+            using(SqlCommand cmd = new SqlCommand(_query, dataBase.getConnection()))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add(sqlParameter);
+                Table = new DataTable();
+
+                adapter = new SqlDataAdapter(cmd);
+                adapter.Fill(Table);
+                dataGridView1.DataSource = Table;
+                dataGridView1.Columns["ID"].Visible = false;
+                dataGridView1.Columns["ID"].ReadOnly = true;
+            }
+        }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Menu_Form frm = new Menu_Form();
             frm.Show();
+            this.Close();
         }
 
         private void Bookkeeping_Form_Load(object sender, EventArgs e)
