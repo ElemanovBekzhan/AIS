@@ -13,3 +13,4 @@ C:\Users\qwerty\Desktop\AIS_PO\АИС\obj\Debug\АИС.pdb
 C:\Users\qwerty\Desktop\AIS_PO\АИС\obj\Debug\АИС.CompanyBranch_Form.resources
 C:\Users\qwerty\Desktop\AIS_PO\АИС\obj\Debug\АИС.Menu_Form.resources
 C:\Users\qwerty\Desktop\AIS_PO\АИС\obj\Debug\АИС.Company_Form.resources
+C:\Users\qwerty\Desktop\AIS_PO\АИС\obj\Debug\АИС.Contact_Form.resources

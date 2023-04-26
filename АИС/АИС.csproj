@@ -70,6 +70,12 @@
     <Compile Include="Company_Form.Designer.cs">
       <DependentUpon>Company_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Contact_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact_Form.Designer.cs">
+      <DependentUpon>Contact_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataBase.cs" />
     <Compile Include="Menu_Form.cs">
       <SubType>Form</SubType>
@@ -90,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Company_Form.resx">
       <DependentUpon>Company_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact_Form.resx">
+      <DependentUpon>Contact_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu_Form.resx">
       <DependentUpon>Menu_Form.cs</DependentUpon>

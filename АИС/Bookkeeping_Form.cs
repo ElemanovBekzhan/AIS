@@ -54,6 +54,154 @@ namespace АИС
             }
         }
 
+        private void оКомпанииToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Company_Form frm = new Company_Form();
+            frm.Show();
+            this.Close();
+        }
+
+        private void производствоToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CompanyBranch_Form frm = new CompanyBranch_Form();
+            frm.Show();
+            this.Close();
+        }
+
+        private void социальнаяОтветственностьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Bookkeeping_Form frm = new Bookkeeping_Form();
+            frm.Show();
+            this.Close();
+        }
+
+        private void контактыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Contact_Form frm = new Contact_Form();
+            frm.Show();
+            this.Close();
+        }
+
+        private void выходToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            textBox3.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            textBox2.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            textBox4.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            label5.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (textBox3.Text == "")
+            {
+                MessageBox.Show("Данные не выбраны");
+            }
+            else
+            {
+                try
+                {
+                    dataBase.openConnection();
+                    string quary = "UPDATE Book_tab SET Наименование = '" + textBox4.Text + "',Издательство = '" +
+                                   textBox2.Text + "',Цена = '" +
+                                   textBox3.Text + "' WHERE ID = '" + label5.Text + "';";
+                    SqlCommand cmd = new SqlCommand(quary, dataBase.getConnection());
+                    cmd.ExecuteNonQuery();
+                    Table.Clear();
+                    adapter.Fill(Table);
+                    dataGridView1.DataSource = Table;
+                    
+
+                }
+                catch (Exception exception)
+                {
+                    Console.WriteLine(exception);
+                    throw;
+                }
+                finally
+                {
+                    dataBase.closeConnection();
+                }
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Удалить?", "Удаление", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (result == DialogResult.Yes)
+            {
+                if (textBox2.Text == "")
+                {
+                    MessageBox.Show("Данные не выбраны");
+                }
+                else
+                {
+                    try
+                    {
+                        dataBase.openConnection();
+                        string quary = "DELETE FROM Book_tab WHERE ID ='" + label5.Text + "';";
+
+                        SqlCommand cmd = new SqlCommand(quary, dataBase.getConnection());
+                        cmd.ExecuteNonQuery();
+                        Table.Clear();
+                        adapter.Fill(Table);
+                        dataGridView1.DataSource = Table;
+                        
+                    }
+                    catch (Exception exception)
+                    {
+                        Console.WriteLine(exception);
+                        throw;
+                    }
+                    finally
+                    {
+                        dataBase.closeConnection();
+                    }
+                }
+            }
+            else
+            {
+
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text == "")
+            {
+                MessageBox.Show("Данные не введены");
+            }
+            else
+            {
+                try
+                {
+                    dataBase.openConnection();
+
+                    string quary = "INSERT INTO Book_tab (Наименование, Издательство, Цена) VALUES('" + textBox4.Text + "','" + textBox2.Text + "','" + textBox3.Text + "')";
+                    SqlCommand cmd = new SqlCommand(quary, dataBase.getConnection());
+                    cmd.ExecuteNonQuery();
+                    Table.Clear();
+                    adapter.Fill(Table);
+                    dataGridView1.DataSource = Table;
+                    
+                }
+                catch (Exception exception)
+                {
+                    Console.WriteLine(exception);
+                    throw;
+                }
+                finally
+                {
+                    dataBase.closeConnection();
+                }
+            }
+        }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Menu_Form frm = new Menu_Form();
