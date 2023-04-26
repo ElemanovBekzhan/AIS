@@ -83,5 +83,12 @@ namespace АИС
         {
             this.Close();   
         }
+
+        private void оРазработчикеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            InfoSt frm = new InfoSt();
+            frm.Show();
+            this.Close();
+        }
     }
 }
